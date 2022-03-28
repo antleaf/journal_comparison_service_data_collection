@@ -1,1 +1,5 @@
-# journal_comparison_service_data_collection
+# Journal Comparison Service
+
+## Data Collection
+
+This repository contains the data collection templates for the *Journal Comparison Service*

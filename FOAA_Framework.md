@@ -1,78 +1,16 @@
-# FOAA Spreadsheet
+# Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees
 
-Paul Walk, 2022-03-28
+Version 1.0, 2022-04-11
+
+This documentation supports the collection of price and transparency data from publishers for the *cOAlitions S Journal Comparison Service*, using the spreadsheet with filename `Journal_Comparison_Service_Data_Collection_FOAA_v1.0.xlsx` . This document describes each of the columns in that spreadsheet, with some guidance on how to enter data.
 
 ## Column Definitions
 
-### ISSN Print
+### ISSN
 
-**Requirement:** Only one of:
-
-* ISSN Print
-
-* ISSN Electronic
-
-* ISSN Linking
-
-* Journal DOI
+**Requirement:** Required
 
 **Validation:** Valid ISSN
-
-**JATS mapping:** /journal-meta/issn[@publication-format="print"]
-
-***
-
-### ISSN Electronic
-
-**Requirement:** Only one of:
-
-* ISSN Print
-
-* ISSN Electronic
-
-* ISSN Linking
-
-* Journal DOI
-
-**Validation:** Valid ISSN
-
-**JATS mapping:** /journal-meta/issn[@publication-format="electronic"]
-
-***
-
-### ISSN Linking
-
-**Requirement:** Only one of:
-
-* ISSN Print
-
-* ISSN Electronic
-
-* ISSN Linking
-
-* Journal DOI
-
-**Validation:** Valid ISSN
-
-**JATS mapping:** /journal-meta/issn-l
-
-***
-
-### Journal DOI
-
-**Requirement:** Only one of:
-
-* ISSN Print
-
-* ISSN Electronic
-
-* ISSN Linking
-
-* Journal DOI
-
-**Validation:** Valid DOI
-
-**JATS mapping:** /journal-meta/journal-id[@journal-id-type="doi"]
 
 ***
 
@@ -122,6 +60,116 @@ Paul Walk, 2022-03-28
 
 ***
 
+### APC List Price Range Lower
+
+**Requirement:** Required
+
+**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
+
+**Guidance: **The lower price of any APC list price range for primary research articles. If there is just a single APC list price enter the same number in both *APC List Price Range Lower* and *APC List Price Range Higher*.
+
+If no APC is charged, please indicate this by entering 0.00
+
+***
+
+### APC List Price Range Higher
+
+**Requirement:** Required
+
+**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
+
+**Guidance: **The higher price of any APC list price range for primary research articles. If there is just a single APC list price enter the same number in both *APC List Price Range Lower* and *APC List Price Range Higher*.
+
+If no APC is charged, please indicate this by entering 0.00
+
+***
+
+### APC List Price Currency
+
+**Requirement:** Required
+
+**Validation:** Valid ISO 4217:2015 alphabetic currency code
+
+**Guidance:** Active currency codes can be found at https://en.wikipedia.org/wiki/ISO_4217#Active_codes
+
+Please enter a value here (e.g. "USD"), even if the APC values in the previous two columns are 0.00
+
+***
+
+### APC Waiver Discount Policy
+
+**Requirement:** Optional
+
+**Validation:** Valid URL including protocol (http or https)
+
+**Guidance:** A link to the publisher's publicly available policy for APC waivers and discounts.
+
+***
+
+### Subscription List Price Range Lower
+
+**Requirement:** Required
+
+**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
+
+**Guidance:** The lower price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*.
+
+This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
+
+If no Subscription is charged, please indicate this by entering 0.00
+
+***
+
+### Subscription List Price Range Higher
+
+**Requirement:** Required
+
+**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
+
+**Guidance:** The higher price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*.
+
+This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
+
+If no Subscription is charged, please indicate this by entering 0.00
+
+***
+
+### Subscription List Price For Member of The Association of American Universities
+
+**Requirement:** Required
+
+**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
+
+**Guidance:** To facilitate comparison of prices between publishers.
+
+This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
+
+If no Subscription is charged, please indicate this by entering 0.00
+
+***
+
+### Subscription List Price Currency
+
+**Requirement:** Required
+
+**Validation:** Valid ISO 4217:2015 alphabetic currency code
+
+**Guidance:** Active currency codes can be found at https://en.wikipedia.org/wiki/ISO_4217#Active_codes
+
+Please enter a value here (e.g. "USD"), even if the subscription values in the previous three columns are 0.00
+
+***
+
+### Subscription Discount Policy
+
+**Requirement:** Optional
+
+**Validation:** Valid URL including protocol (http or https).
+
+**Guidance:** A link to the publisher's publicly available policy for discounting subscription prices.
+
+***
+
 ### In-house or Outsourced Journal Operations?
 **Requirement:** Required
 
@@ -129,6 +177,7 @@ Paul Walk, 2022-03-28
 
 * In-house
 * Out-sourced
+* Both
 
 **Guidance:** 
 
@@ -137,7 +186,7 @@ Paul Walk, 2022-03-28
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator.
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. If the rejection rate is unknown, please enter 0.00
 
 **Guidance:** Desk rejection rate for reporting period (year)
 
@@ -145,27 +194,20 @@ Paul Walk, 2022-03-28
 
 ### Discounts and Waivers Policy
 
-**Requirement:** Required
+**Requirement:** Optional
 
-**Validation:** Valid URL including protocol (http or https) or "none"
+**Validation:** Valid URL including protocol (http or https)
 
-**Guidance:** A link to the publisher's publicly available policy for APC waivers and discounts, or an indication there is none.
-
-***
-
-### Agreements
-
-**Requirement:** Required
-
-**Validation:** Valid URL including protocol (http or https) or "none"
+**Guidance:** A link to the publisher's publicly available policy for APC waivers and discounts.
 
 ***
 
-### Journal Operations
+### Price Breakdown: Journal Operations
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:**  This might include aspects such as:
 * Journal support and submission system
@@ -174,11 +216,12 @@ Paul Walk, 2022-03-28
 
 ***
 
-### Publication
+### Price Breakdown: Publication
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** This might include aspects such as:
 
@@ -195,11 +238,12 @@ Paul Walk, 2022-03-28
 
 ***
 
-### Fees
+### Price Breakdown: Fees
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** This might include aspects such as:
 
@@ -208,13 +252,15 @@ Paul Walk, 2022-03-28
 
 ***
 
-### Communication
+### Price Breakdown: Communication
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** This might include aspects such as:
+
 * Dissemination
 * PR & Marketing
 * Community support
@@ -222,11 +268,12 @@ Paul Walk, 2022-03-28
 
 ***
 
-### General
+### Price Breakdown: General
 
-**Requirement:** Optional
+**Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** This might include aspects such as:
 * Management & administration
@@ -237,32 +284,24 @@ However, this category is optional, since these general costs may have already b
 
 ***
 
-### Surplus / Other Revenue
+### Price Breakdown: Surplus / Other Revenue
 
-**Requirement:** Optional
+**Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** This category is optional, since the surplus may have already been distributed between the other categories.
 ***
 
-### Discounts & Waivers
+### Price Breakdown: Discounts & Waivers
 
 **Requirement:** Required
 
-**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00
+**Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
+The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
 **Guidance:** If there are no Discounts & Waivers, please enter 0.00
-
-***
-
-### Average APC
-
-**Requirement:** Required
-
-**Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
-
-**Guidance:** This is the average APC for this journal. All percentages of the other costed columns must add up to 100%.
 
 ***
 

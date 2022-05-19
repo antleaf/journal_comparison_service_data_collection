@@ -6,6 +6,17 @@ This documentation supports the collection of price and transparency data from p
 
 This document lists revisions, in reverse chronological order.
 
+### Version 1.1
+
+**Date:** 2022-05-19
+
+**Filename:** `Journal_Comparison_Service_Data_Collection_Information_Power_v1.1.xlsx`
+
+**Changes:**
+
+* Updated guidance for `Cluster`
+* Updated guidance for `Subscription List Price For Member of The Association of American Universities`
+
 ### Version 1.0
 
 **Date:** 2022-04-11

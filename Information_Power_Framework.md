@@ -24,7 +24,7 @@ This documentation supports the collection of price and transparency data from p
 
 **Requirement:** Optional
 
-**Guidance:** A simple text column to allow a label to be used to indicate that certain titles belong together as a "logical" cluster.
+**Guidance:** If you have a range of titles that are very similar to one another, and all the data provided for these would be within ±5%, then it is acceptable to average across these titles. In this case you would enter each journal in its own row and provide the same data for each title in the group. You would then complete this column to indicate which rows have been grouped together to calculate the average figures reported.
 
 ***
 
@@ -127,11 +127,7 @@ If no Subscription is charged, please indicate this by entering 0.00
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** To facilitate comparison of prices between publishers.
-
-This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
-
-If no Subscription is charged, please indicate this by entering 0.00
+**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US.
 
 ***
 

@@ -24,7 +24,7 @@ This documentation supports the collection of price and transparency data from p
 
 **Requirement:** Optional
 
-**Guidance:** A simple text column to allow a label to be used to indicate that certain titles belong together as a "logical" cluster.
+**Guidance:** If you have a range of titles that are very similar to one another, and all the data provided for these would be within ±5%, then it is acceptable to average across these titles. In this case you would enter each journal in its own row and provide the same data for each title in the group. You would then complete this column to indicate which rows have been grouped together to calculate the average figures reported.
 
 ***
 
@@ -140,11 +140,7 @@ If no Subscription is charged, please indicate this by entering 0.00
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** To facilitate comparison of prices between publishers.
-
-This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
-
-If no Subscription is charged, please indicate this by entering 0.00
+**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US.
 
 ***
 
@@ -275,12 +271,13 @@ The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in to
 **Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
 The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
-**Guidance:** This might include aspects such as:
-* Management & administration
-* Other business costs
-* Taxes
+**Guidance: ** This is a required field. Please enter as a percentage with two decimal places. 
+Items covered by this heading include:
+•	Management & administration
+•	Other business costs
+•	Taxes
 
-However, this category is optional, since these general costs may have already been distributed between the other categories.
+If these general costs may have already been distributed between the other categories, please enter 0.00 for this field
 
 ***
 
@@ -291,7 +288,9 @@ However, this category is optional, since these general costs may have already b
 **Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
 The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
-**Guidance:** This category is optional, since the surplus may have already been distributed between the other categories.
+**Guidance:** This is a required field. Please enter as a percentage with two decimal places.
+Use this field to indicate % of the price for surpluses or other revenue. If the surplus has already been distributed between the other categories, please enter 0.00 for this field.
+
 ***
 
 ### Price Breakdown: Discounts & Waivers
@@ -301,7 +300,8 @@ The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in to
 **Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. Must be less than or equal to 100.00, and greater than or equal to 0.00
 The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in total
 
-**Guidance:** If there are no Discounts & Waivers, please enter 0.00
+**Guidance:** This is a required field. Please enter as a percentage with two decimal places. 
+Use this field to indicate % of the price allocated to support discounts and waivers. If there are no Discounts & Waivers, please enter 0.00 for this field.
 
 ***
 

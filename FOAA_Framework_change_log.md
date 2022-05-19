@@ -8,6 +8,20 @@ This document lists revisions, in reverse chronological order.
 
 ***
 
+### Version 1.1
+
+**Date:** 2022-05-19
+
+**Filename:** `Journal_Comparison_Service_Data_Collection_FOAA_v1.1.xlsx`
+
+**Changes:**
+
+* Updated guidance for `Cluster`
+* Updated guidance for `Subscription List Price For Member of The Association of American Universities`
+* Updated guidance for `Price Breakdown: General`
+* Updated guidance for `Price Breakdown: Surplus / Other Revenue`
+* Updated guidance for `Price Breakdown: Discounts & Waivers`
+
 ### Version 1.0
 
 **Date:** 2022-04-11

@@ -140,7 +140,7 @@ If no Subscription is charged, please indicate this by entering 0.00
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US.
+**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US. If there is no subscription price, please enter 0.00
 
 ***
 
@@ -245,6 +245,8 @@ The values of the *Price Breakdown:* columns must add up to 100.00 or 0.00 in to
 
  * Scientific editors fees
  * Scholarly societies fees
+
+If you do not pay any fees, please enter 0.00 in this field
 
 ***
 

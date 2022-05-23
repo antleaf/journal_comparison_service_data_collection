@@ -12,9 +12,12 @@ This document lists revisions, in reverse chronological order.
 
 **Date:** 2022-05-19
 
-**Filename:** `Journal_Comparison_Service_Data_Collection_FOAA_v1.1.xlsx`
+**Filename:** `Journal_Comparison_Service_Data_Collection_FOAA-Based_v1.1.xlsx`
 
 **Changes:**
+
+* Renamed framework files to "FOAA_based"
+* Retitles documents to *cOAlition S adaptation of the Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees*
 
 * Updated guidance for `Cluster`
 * Updated guidance for `Subscription List Price For Member of The Association of American Universities`

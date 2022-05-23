@@ -1,4 +1,4 @@
-# Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees
+# cOAlition S adaptation of the Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees
 
 Version 1.0, 2022-04-11
 

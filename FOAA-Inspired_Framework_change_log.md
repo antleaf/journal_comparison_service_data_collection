@@ -1,8 +1,8 @@
-# Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees
+# cOAlition S adaptation of the Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees
 
 ## Change Log
 
-This documentation supports the collection of price and transparency data from publishers for the *cOAlitions S Journal Comparison Service*, using the *Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees*.
+This documentation supports the collection of price and transparency data from publishers for the *cOAlitions S Journal Comparison Service*, using an adaptation of the *Fair Open Access Alliance (FOAA) Breakdown of Publication Services and Fees*.
 
 This document lists revisions, in reverse chronological order.
 

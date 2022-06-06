@@ -184,7 +184,7 @@ Please enter a value here (e.g. "USD"), even if the subscription values in the p
 
 **Validation:** Percentage as a number with two decimal places. A period (dot) should be used as the decimal separator. If the rejection rate is unknown, please enter 0.00
 
-**Guidance:** Desk rejection rate for reporting period (year)
+**Guidance:** Rejection rate for reporting period (year)
 
 ***
 

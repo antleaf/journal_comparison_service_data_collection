@@ -32,7 +32,7 @@ This documentation supports the collection of price and transparency data from p
 
 **Requirement:** Required
 
-**Validation:** Numeric value from https://read.oecd-ilibrary.org/science-and-technology/frascati-manual-2015_9789264239012-en#page60 or one of the following:
+**Validation:** Enter value from https://read.oecd-ilibrary.org/science-and-technology/frascati-manual-2015_9789264239012-en#page60 (e.g. 1.6 **Biological sciences**) or one of the following:
 
 * all disciplines
 * all STEM disciplines

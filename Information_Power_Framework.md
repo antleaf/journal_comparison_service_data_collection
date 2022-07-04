@@ -102,7 +102,7 @@ Please enter a value here (e.g. "USD"), even if the APC values in the previous t
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** The lower price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*.
+**Guidance:** The lower price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*. **This should be the fee charged to an institution, not a personal subscriber.**
 
 This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
 
@@ -114,7 +114,7 @@ If no Subscription is charged, please indicate this by entering 0.00
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** The higher price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*.
+**Guidance:** The higher price of any subscription list price range for primary research articles. If there is just a single subscription list price enter the same number in both *Subscription List Price Range Lower* and *Subscription List Price Range Higher*. **This should be the fee charged to an institution, not a personal subscriber.**
 
 This includes fees paid by libraries through models such as Subscribe to Open, Community Action Publishing, and library membership.
 

@@ -121,13 +121,13 @@ This includes fees paid by libraries through models such as Subscribe to Open, C
 If no Subscription is charged, please indicate this by entering 0.00
 
 ***
-### Subscription List Price For Member of The Association of American Universities
+### Subscription List Price For Member of The Association of American Universities (in USD)
 
 **Requirement:** Required
 
 **Validation:** Number with two decimal places. A period (dot) should be used as the decimal separator. No thousand separator should be used.
 
-**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US.
+**Guidance:** This is a required field. To facilitate comparison of list prices between publishers, please tell us the subscription list price for a typical research-intensive university in the US. Please cite in US$
 
 ***
 
